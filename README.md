@@ -18,5 +18,34 @@ Additionally, for many gaming sites, the focus has shifted away from reviewing g
 We encourage you to research these issues and draw your own conclusions about whether you want to follow such mainstream gaming sites. Whatever sites you do choose to read, it's important that you pay attention to the writers you're reading, not just the site. There really isn't a "best game review site" for everyone, since quality differs among the authors at various sites.
 
 
-Creators: 
+## Creators: 
 @Anvarov-Ismoil , @MohirDevv , @AndyMagwayer , @just1slom , @arisanerz and @ulugbeey
+
+
+This template should help get you started developing with Vue 3 in Vite.
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
