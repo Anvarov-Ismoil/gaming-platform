@@ -1,5 +1,5 @@
 # gaming
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Main BG](https://github.com/Anvarov-Ismoil/gaming-platform/blob/maga/main-bg-gor-gaming.png)
 
 ## Deploy:
 https://itlabs-gaming.netlify.app/
