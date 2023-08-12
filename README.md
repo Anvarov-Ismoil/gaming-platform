@@ -8,7 +8,7 @@ https://itlabs-gaming.netlify.app/
 
 Hundreds of video games get released every year, and there's not enough time to play them all. How are you supposed to know which games are worth your time? Video game news and reviews sites are a good way to keep up with what's happening in the gaming world and see if the latest releases are worth buying.
 
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![Second BG-Image](https://github.com/Anvarov-Ismoil/gaming-platform/blob/maga/01_gaming_sp_preview.png)
 
 A Word on Mainstream Gaming Sites
 Video games journalism has gone through a lot of problems in the past decade. We'll spare specific details here, but suffice it to say that several well-known video game websites have suffered major breaches of ethics: collusion, undisclosed financial ties, and cronyism, among other behaviors.
