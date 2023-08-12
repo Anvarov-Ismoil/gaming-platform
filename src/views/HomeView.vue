@@ -1,4 +1,3 @@
-
 <template>
   <main>
     <h1 class="text-center font-bold text-red-500">Hello world</h1>
