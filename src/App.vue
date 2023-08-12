@@ -1,4 +1,7 @@
 <template>
+  <div>
+    h1
+  </div>
   <RouterView />
 </template>
 
