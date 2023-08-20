@@ -52,6 +52,8 @@ export default {
   components: {
     heroSection
   },
-  data() { },
+  data() {
+    return {}
+  },
 }
 </script>
