@@ -1,8 +1,8 @@
 <template>
   <header>
     <div class="container flex justify-between items-center">
-      <div class="logo">
-        <h1 class="text-2xl">LOGO</h1>
+      <div class="logo w-[60px] h-[60px]">
+        <img src="https://cdn-icons-png.flaticon.com/512/8305/8305602.png" alt="">
       </div>
       <ul class="menu hidden items-center gap-[36px] lg:flex">
         <li class="flex items-center gap-[88px]">
@@ -18,7 +18,7 @@
           Contact Us
         </button>
       </ul>
-      
+
       <button class="burger text-2xl block lg:hidden">
         <i class="fas fa-bars"></i>
       </button>
@@ -60,7 +60,7 @@ export default {
   position: relative;
 }
 
-.line{
+.line {
   display: none;
   position: absolute;
   top: 10px;
