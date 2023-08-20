@@ -13,3 +13,7 @@ body {
   margin: 0 auto;
   padding: 15px;
 }
+
+.grayColor{
+  background-color: (255, 255, 255, 0.11);
+}
