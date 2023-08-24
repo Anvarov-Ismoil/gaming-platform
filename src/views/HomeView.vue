@@ -2,32 +2,8 @@
   <main class="h-[200vh]">
 
     <heroSection />
-
-    <!-- <div class="trending pt-32">
-      <div class="title gap-[500px] flex justify-around items-center">
-        <h1 class="text-[31px]">Currently Trending Games</h1>
-        <button class="btn bg-btn-color py-[10px] px-[30px] rounded-xl">SEE ALL</button>
-      </div>
-      <div class="cards flex justify-center flex-row gap-[47px]">
-        <div class="image-block pt-14 w-[250px]">
-          <img src="../image/Home.png" class="w-[250px] h-[277px]" alt="#">
-          <p class="pt-6 text-center"><i class="fab fa-gripfire"></i> 40 Followers</p>
-        </div>
-        <div class="image-block pt-14 w-[250px]">
-          <img src="../image/Home1.png" class="w-[250px] h-[277px]" alt="#">
-          <p class="pt-6 text-center"><i class="fab fa-gripfire"></i> 40 Followers</p>
-        </div>
-        <div class="image-block pt-14 w-[250px]">
-          <img src="../image/Home2.png" class="w-[250px] h-[277px]" alt="#">
-          <p class="pt-6 text-center"><i class="fab fa-gripfire"></i> 40 Followers</p>
-        </div>
-        <div class="image-block pt-14 w-[250px]">
-          <img src="../image/Main.png" class="w-[250px] h-[277px] rounded-[20px]" alt="#">
-          <p class="pt-6 text-center"><i class="fab fa-gripfire"></i> 40 Followers</p>
-        </div>
-      </div>
-    </div> -->
-
+    <cardsSection />
+    
     <!-- <div class="image pt-16">
       <h1 class="text-4xl leading-[65px] w-[826px] text-center pt-[130px] mx-[310px]">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -47,10 +23,12 @@
 
 <script >
 import heroSection from '../sections/home/heroSection.vue'
+import cardsSection from '../sections/home/cardsSection.vue'
 
 export default {
   components: {
-    heroSection
+    heroSection,
+    cardsSection
   },
   data() {
     return {}
