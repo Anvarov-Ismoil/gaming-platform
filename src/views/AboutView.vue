@@ -48,7 +48,7 @@
 
     <div class="about bg-[#1C140F] mt-[150px] flex justify-center items-center gap-[95px]">
       <div class="left pt-[250px]">
-        <img src="src/assets/images/about-us.png" class="" alt="">
+        <img src="@/assets/images/About.png" class="" alt="">
       </div>
       <div class="right flex flex-col items-start gap-[15px] pt-[150px]">
         <p class="text-[16px]">Lorem ipsum</p>
@@ -62,22 +62,22 @@
         <h1 class="text-[28px] mt-[148px]">Our Team</h1>
         <div class="cards mt-[53px] flex justify-center items-center gap-[28px]">
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="src/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="@/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="src/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="@/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="src/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="@/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="src/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="@/assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
@@ -86,6 +86,14 @@
     </div>
   </main>
 </template>
+
+<script>
+export default {
+  data() {
+    return {}
+  },
+}
+</script>
 
 <style>
 @media (min-width: 1024px) {

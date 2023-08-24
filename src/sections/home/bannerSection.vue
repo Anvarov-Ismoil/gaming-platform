@@ -10,7 +10,7 @@
           typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
       </div>
       <div class="image-block flex justify-center items-center">
-        <img src="src/assets/images/Home3.png" class="w-full xl:h-[462px] object-cover rounded-md" alt="#">
+        <img src="@/assets/images/Home3.png" class="w-full xl:h-[462px] object-cover rounded-md" alt="#">
       </div>
     </div>
   </section>
