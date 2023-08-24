@@ -48,7 +48,7 @@
 
     <div class="about bg-[#1C140F] mt-[150px] flex justify-center items-center gap-[95px]">
       <div class="left pt-[250px]">
-        <img src="src/assets/images/About us.png" class="" alt="">
+        <img src="src/assets/images/about-us.png" class="" alt="">
       </div>
       <div class="right flex flex-col items-start gap-[15px] pt-[150px]">
         <p class="text-[16px]">Lorem ipsum</p>
