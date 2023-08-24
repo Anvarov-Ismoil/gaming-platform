@@ -4,7 +4,8 @@
 
 body {
   color: #ffffff;
-  background: #000000;
+  /* background: #000000; */
+  background: linear-gradient(180.96deg, #000000 0.82%, #4A2800 129.1%);
 }
 
 .container {
@@ -15,5 +16,5 @@ body {
 }
 
 .grayColor{
-  background-color: (255, 255, 255, 0.11);
+  color: rgba(255, 255, 255, 0.11);
 }
