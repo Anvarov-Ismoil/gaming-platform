@@ -9,7 +9,7 @@
         <button class="w-[195px] h-[53px] bg-[#FA8305] rounded-[40px] text-[16px] px-[31px] py-[14px] mt-[57px]">Get more
           details</button>
       </div>
-      <img src="../image/Main.png" alt="#" class="img pr-[25px] w-[739px] h-[656px] pt-[126px]">
+      <img src="@/assets/images/Main.png" alt="#" class="img pr-[25px] w-[739px] h-[656px] pt-[126px]">
 
     </div>
 

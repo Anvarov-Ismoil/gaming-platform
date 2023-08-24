@@ -1,4 +1,4 @@
-# gaming
+# Gaming
 ![Main BG](https://github.com/Anvarov-Ismoil/gaming-platform/blob/maga/main-bg-gor-gaming.png)
 
 ## Deploy:
