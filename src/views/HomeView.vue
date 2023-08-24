@@ -1,5 +1,5 @@
 <template>
-  <main class="h-[200vh]">
+  <main>
 
     <heroSection />
     <cardsSection />

@@ -29,7 +29,11 @@
 export default {
   data() {
     return {
-
+      cardsArray: [
+        {
+          
+        },
+      ]
     }
   }
 }
