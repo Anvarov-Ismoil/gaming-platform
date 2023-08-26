@@ -11,6 +11,9 @@ module.exports = {
         'btn-color': 'rgba(255, 255, 255, 0.11)',
         'button': 'rgba(176, 0, 220, 0.11)'
       },
+      backgroundImage: {
+        'optionsBg': "url('src/assets/images/bg.png')"
+      }
     },
     container: {
       center: true,
