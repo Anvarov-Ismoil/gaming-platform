@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed w-full transition-all" :class="{ 'scroll': is_navbar_active }">
+  <header class="fixed top-0 w-full transition-all z-[999999]" :class="{ 'scroll': is_navbar_active }">
     <div class="container flex justify-between items-center">
       <div class="logo w-[60px] h-[60px]">
         <img src="https://cdn-icons-png.flaticon.com/512/8305/8305602.png" alt="">
@@ -14,7 +14,7 @@
             </div>
           </router-link>
         </li>
-        <button class="btn bg-brand-orange px-8 py-3 rounded-[6px]">
+        <button @click="openContact()" class="btn bg-brand-orange px-8 py-3 rounded-[6px]">
           Contact Us
         </button>
       </ul>
@@ -37,7 +37,7 @@
             </div>
           </router-link>
         </li>
-        <button class="btn bg-brand-orange px-8 py-3 rounded-[6px]">
+        <button @click="openContact()" class="btn bg-brand-orange px-8 py-3 rounded-[6px]">
           Contact Us
         </button>
       </ul>
@@ -60,11 +60,11 @@ export default {
         },
         {
           name: 'Portfolio',
-          route: '/'
+          route: '/portfolio'
         },
         {
           name: 'News',
-          route: '/'
+          route: '/news'
         },
       ],
       is_navbar_active: false,
@@ -92,6 +92,10 @@ export default {
       } else {
         this.isMenuOpened = true
       }
+    },
+    openContact(){
+      console.log('djsjdhsdhidgsdfgsdhf');
+      this.$router.push({name: 'contact'})
     },
   },
   mounted() {

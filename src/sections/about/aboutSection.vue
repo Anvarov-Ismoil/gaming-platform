@@ -1,14 +1,14 @@
 <template>
-    <section class="about bg-[#1C140F] mt-36">
-        <div class="container flex justify-between items-center">
-            <div class="left w-[496px] pt-28">
+    <section class="about bg-light-brown py-10 mt-20">
+        <div class="container flex items-center justify-center lg:justify-between flex-wrap">
+            <div class="left max-w-[496px]">
                 <img src="@/assets/images/About.png" class="w-full" alt="">
             </div>
-            <div class="right flex flex-col items-start gap-[15px] pt-[150px]">
+            <div class="right flex flex-col items-start gap-[15px]">
                 <p class="text-[16px]">Lorem ipsum</p>
-                <h1 class="text-[28px] w-[531px] leading-[44px]">Lorem Ipsum is simply dummy text of the printing and
+                <h1 class="text-[28px] max-w-[531px] leading-[44px]">Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. </h1>
-                <p class="text-[16px] w-[536px]">Lorem Ipsum is simply dummy text of the printing and
+                <p class="text-[16px] max-w-[536px]">Lorem Ipsum is simply dummy text of the printing and
                     typesetting
                     industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
                     printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
