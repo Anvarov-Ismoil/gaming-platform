@@ -9,7 +9,7 @@
         <button class="w-[195px] h-[53px] bg-[#FA8305] rounded-[40px] text-[16px] px-[31px] py-[14px] mt-[57px]">Get more
           details</button>
       </div>
-      <img src="../image/Main.png" alt="#" class="img pr-[25px] w-[739px] h-[656px] pt-[126px]">
+      <img src="../assets/images/Main.png" alt="#" class="img pr-[25px] w-[739px] h-[656px] pt-[126px]">
 
     </div>
 
@@ -48,7 +48,7 @@
 
     <div class="about bg-[#1C140F] mt-[150px] flex justify-center items-center gap-[95px]">
       <div class="left pt-[250px]">
-        <img src="../image/About us.png" class="" alt="">
+        <img src="../assets/images/About us.png" class="" alt="#">
       </div>
       <div class="right flex flex-col items-start gap-[15px] pt-[150px]">
         <p class="text-[16px]">Lorem ipsum</p>
@@ -62,22 +62,22 @@
         <h1 class="text-[28px] mt-[148px]">Our Team</h1>
         <div class="cards mt-[53px] flex justify-center items-center gap-[28px]">
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="../image/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="../assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="../image/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="../assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="../image/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="../assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
           <div class="card flex flex-col justify-center items-center w-[295px] rounded-[20px] bg-[#1C140F] py-[35px] px-[86px]">
-            <img src="../image/bill.png" class="w-[123px] h-[123px]" alt="">
+            <img src="../assets/images/bill.png" class="w-[123px] h-[123px]" alt="">
             <h1 class="text-[19px]">John peter</h1>
             <p class="text-[16px]">COO</p>
           </div>
@@ -96,23 +96,3 @@
   }
 }
 </style>
-<!-- <div class="hero flex flex-row justify-between">
-  <div class="titles w-[527px] flex flex-col pt-[210px] pl-[211px] ">
-    <h3 class="text-xl text-[#E87D0E]">Home > About us</h3>
-    <h1 class="text-[50px] w-[480px] leading-[77px] font-bold">Work that we produce for our clients</h1>
-    <p class="text-[16px] pt-[26px] pb-[50px] w-[530px] h-[100px] leading-8">Lorem Ipsum is simply dummy text of the
-      printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-    <button class="w-[195px] h-[53px] bg-[#FA8305] rounded-[40px] text-[16px] mt-[57px] px-[31px] py-[14px]">Get more
-      details</button>
-  </div>
-  <img src="../image/Main.png" alt="#" class="img pr-[25px] w-[739px] h-[656px] pt-[126px]">
-  <div class="cards pt-[145px]">
-    <h1 pb-[63px]>Why work with us</h1>
-    <div class="card bg-[#1C140F]">
-      <button class="btn w-[140px] py-[7px]">Lorem ipsum</button>
-      <h1 class="py-[20px]">Lorem ipsum</h1>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s,</p>
-    </div>
-  </div>
-</div> -->

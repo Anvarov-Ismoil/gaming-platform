@@ -18,7 +18,7 @@
           <p class="pt-6 text-center"><i class="fab fa-gripfire"></i> 40 Followers</p>
         </div>
         <div class="image-block pt-14 w-[250px]">
-          <img src="../../assets/images/Main.png" class="w-[250px] h-[277px] rounded-[20px]" alt="#">
+          <img src="@/assets/images/Main.png" class="w-[250px] h-[277px] rounded-[20px]" alt="#">
           <p class="pt-6 text-center"><i class="fab fa-gripfire"></i> 40 Followers</p>
         </div>
       </div>
