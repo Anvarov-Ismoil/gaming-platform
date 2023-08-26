@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="wrapper pt-[177px]">
-      <div class="titles pl-[135px]">
+      <div class="titles pl-[175px]">
         <h1 class="text-[30px] leading-[57px] font-semibold">Lorem ispum</h1>
         <p class="w-[531px] text-[16px] leading-[30px] font-normal pb-[74px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       </div>

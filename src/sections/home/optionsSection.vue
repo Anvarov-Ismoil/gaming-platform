@@ -10,37 +10,37 @@
       <div class="cards flex justify-evenly items-center flex-wrap gap-16 pb-[100px]">
 
             <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="../assets/icons/Phone.png" alt="#">
+              <img class="pb-[30px]" src="@/assets/icons/Phone.png" alt="#">
               <h3 class="pb-[24px]">Mobile Game Development</h3>
               <i class="fab fa-gripfire"></i>
             </div>
 
             <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="../assets/icons/PC.png" alt="#">
+              <img class="pb-[30px]" src="@/assets/icons/PC.png" alt="#">
               <h3 class="pb-[24px]">PC Game Development</h3>
               <i class="fab fa-gripfire"></i>
             </div>
 
             <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="../assets/icons/PS4.png" alt="#">
+              <img class="pb-[30px]" src="@/assets/icons/PS4.png" alt="#">
               <h3 class="pb-[24px]">PS4 Game Development</h3>
               <i class="fab fa-gripfire"></i>
             </div>
 
             <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="../assets/icons/VR.png" alt="#">
+              <img class="pb-[30px]" src="@/assets/icons/VR.png" alt="#">
               <h3 class="pb-[24px]">AR/VR Solutions</h3>
               <i class="fab fa-gripfire"></i>
             </div>
 
             <div class="card flex justify-center items-center flex-col">
-              <img class="pb-[30px]" src="../assets/icons/AR.png" alt="#">
+              <img class="pb-[30px]" src="@/assets/icons/AR.png" alt="#">
               <h3 class="pb-[24px]">AR/ VR design</h3>
               <i class="fab fa-gripfire"></i>
             </div>
 
             <div class="card flex justify-center items-center flex-col">
-              <img class="pb-[30px]" src="../assets/icons/3D.png" alt="#">
+              <img class="pb-[30px]" src="@/assets/icons/3D.png" alt="#">
               <h3 class="pb-[24px]">3D Modelings</h3>
               <i class="fab fa-gripfire"></i>
             </div>
