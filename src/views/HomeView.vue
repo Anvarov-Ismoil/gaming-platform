@@ -6,6 +6,7 @@
     <bannerSection />
     <optionsSection />
     <gallerySection />
+    <preFooter />
 
   </main>
 </template>
@@ -17,6 +18,7 @@ import cardsSection from '../sections/home/cardsSection.vue'
 import bannerSection from '../sections/home/bannerSection.vue'
 import optionsSection from '../sections/optionsSection.vue'
 import gallerySection from '../sections/home/gallerySection.vue'
+import preFooter from '../sections/home/preFooter.vue'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     cardsSection,
     bannerSection,
     optionsSection,
-    gallerySection
+    gallerySection,
+    preFooter
 },
   data() {
     return {}
