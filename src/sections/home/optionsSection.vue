@@ -1,6 +1,6 @@
 <template>
   
-  <section class="Options flex justify-center items-center w-full object-cover bg-no-repeat bg-[url('src/assets/images/bg.png')]">
+  <section class="Options flex justify-center items-center w-full object-cover bg-no-repeat bg-[url('src/assets/images/bg.png')] bg-cover bg-center">
     <div class="Container mx-auto">
       <div class="Titles pt-[96px] flex justify-center items-center flex-col ">
         <h1 class=" w-[826px] text-[30px] leading-[56px] font-bold text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>

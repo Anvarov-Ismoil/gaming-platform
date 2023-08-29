@@ -1,5 +1,5 @@
 <template>
-  <header class="fixed w-full transition-all" :class="{ 'scroll': is_navbar_active }">
+  <header class="fixed w-full top-0 transition-all" :class="{ 'scroll': is_navbar_active }">
     <div class="container flex justify-between items-center">
       <div class="logo w-[60px] h-[60px]">
         <img src="https://cdn-icons-png.flaticon.com/512/8305/8305602.png" alt="">
