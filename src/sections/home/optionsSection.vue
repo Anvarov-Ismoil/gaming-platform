@@ -1,62 +1,69 @@
 <template>
-  
-  <section class="Options flex justify-center items-center w-full object-cover bg-no-repeat bg-[url('src/assets/images/bg.png')] bg-cover bg-center">
-    <div class="Container mx-auto">
-      <div class="Titles pt-[96px] flex justify-center items-center flex-col ">
-        <h1 class=" w-[826px] text-[30px] leading-[56px] font-bold text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
-        <p class="w-[820px] text-center text-[16px] leading-8 pt-[25px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+  <section class="options flex justify-center items-center w-full bg-optionsBg bg-no-repeat bg-cover bg-center py-[90px]">
+    <div class="container mx-auto">
+      <div class="titles flex justify-center items-center flex-col">
+        <h1 class="max-w-[826px] text-[30px] leading-[56px] font-bold text-center">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </h1>
+        <p class="max-w-[820px] text-center text-[16px] leading-8 pt-[25px]">Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
       </div>
-      <div class="options w-[1045px] pt-[100px]">
-      <div class="cards flex justify-evenly items-center flex-wrap gap-16 pb-[100px]">
-
-            <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="@/assets/icons/Phone.png" alt="#">
-              <h3 class="pb-[24px]">Mobile Game Development</h3>
-              <i class="fab fa-gripfire"></i>
-            </div>
-
-            <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="@/assets/icons/PC.png" alt="#">
-              <h3 class="pb-[24px]">PC Game Development</h3>
-              <i class="fab fa-gripfire"></i>
-            </div>
-
-            <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="@/assets/icons/PS4.png" alt="#">
-              <h3 class="pb-[24px]">PS4 Game Development</h3>
-              <i class="fab fa-gripfire"></i>
-            </div>
-
-            <div class="card flex justify-center items-center flex-col ">
-              <img class="pb-[30px]" src="@/assets/icons/VR.png" alt="#">
-              <h3 class="pb-[24px]">AR/VR Solutions</h3>
-              <i class="fab fa-gripfire"></i>
-            </div>
-
-            <div class="card flex justify-center items-center flex-col">
-              <img class="pb-[30px]" src="@/assets/icons/AR.png" alt="#">
-              <h3 class="pb-[24px]">AR/ VR design</h3>
-              <i class="fab fa-gripfire"></i>
-            </div>
-
-            <div class="card flex justify-center items-center flex-col">
-              <img class="pb-[30px]" src="@/assets/icons/3D.png" alt="#">
-              <h3 class="pb-[24px]">3D Modelings</h3>
-              <i class="fab fa-gripfire"></i>
-            </div>
-
+      <div class="cards flex justify-center items-center flex-wrap gap-16 pt-[100px]">
+        <div class="card text-center w-[220px]" v-for="card in cardsArray" :key="card">
+          <div class="block mx-auto w-[65px] h-[65px] bg-white rounded-full p-[17px]">
+            <img class="w-full h-full" :src="card.image" alt="#">
+          </div>
+          <h3 class="py-6">{{ card.text }}</h3>
+          <i :class="card.icon"></i>
         </div>
       </div>
     </div>
   </section>
-
 </template>
 
 <script>
+import phone from '@/assets/icons/phone.svg'
+import pc from '@/assets/icons/pc.svg'
+import ps4 from '@/assets/icons/ps4.svg'
+import vr from '@/assets/icons/vr.svg'
+import ar from '@/assets/icons/ar.svg'
+import theD from '@/assets/icons/3D.svg'
+
 export default {
   data() {
     return {
-
+      cardsArray: [
+        {
+          image: phone,
+          text: 'Mobile Game Development',
+          icon: 'fas fa-arrow-right text-brand-orange',
+        },
+        {
+          image: pc,
+          text: 'PC Game Development',
+          icon: 'fas fa-arrow-right text-brand-orange',
+        },
+        {
+          image: ps4,
+          text: 'PS4 Game Development',
+          icon: 'fas fa-arrow-right text-brand-orange',
+        },
+        {
+          image: vr,
+          text: 'AR/VR Solutions',
+          icon: 'fas fa-arrow-right text-brand-orange',
+        },
+        {
+          image: ar,
+          text: 'AR/VR design',
+          icon: 'fas fa-arrow-right text-brand-orange',
+        },
+        {
+          image: theD,
+          text: '3D Modelings',
+          icon: 'fas fa-arrow-right text-brand-orange',
+        },
+      ]
     }
   }
 }

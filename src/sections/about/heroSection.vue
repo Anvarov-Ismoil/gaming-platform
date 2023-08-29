@@ -3,8 +3,8 @@
     <div class="container flex">
       <div class="titles">
         <h3 class="text-xl text-[#E87D0E]">Home > About</h3>
-        <h1 class="text-[50px] w-[480px] leading-[77px] font-bold">Work that we produce for our clients</h1>
-        <p class="text-[16px] pt-[26px] pb-[50px] w-[530px] h-[100px] leading-8">
+        <h1 class="text-[50px] max-w-[480px] leading-[77px] font-bold">Work that we produce for our clients</h1>
+        <p class="text-[16px] pt-[26px] pb-[50px] max-w-[530px] h-[100px] leading-8">
           Lorem Ipsum is simply dummy text of the
           printing and typesetting industry. Lorem Ipsum has been the industry's standard.
         </p>
@@ -12,7 +12,7 @@
           Get more details
         </button>
       </div>
-      <div class="">
+      <div class="hidden lg:block">
         <img src="@/assets/images/Main.png" alt="#" class="">
       </div>
     </div>
